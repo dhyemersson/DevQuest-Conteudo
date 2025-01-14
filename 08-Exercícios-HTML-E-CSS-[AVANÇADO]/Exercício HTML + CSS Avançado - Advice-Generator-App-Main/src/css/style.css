@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    background-color: var(--advice-card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 20vh;
+}
+
+#numConselho {
+    color: var(--advice-dice-color);
+    font-size: 9px;
+    padding: 32px;
+    letter-spacing: 4px;
+}
+
+#resultado {
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+.pattern-divider {
+    width: 82%;
+    padding-bottom: 46px;
+    margin-top: 20px;
+}
+
+
+.botao {
+    background-color: var(--advice-dice-color);
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    border: 0;
+    text-align: center;
+    font-size: 0;
+    cursor: pointer;
+}
+
+
+.botao:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%)
+}
+
+.icon {
+    width: 15px;
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 230px;
+        height: 210px;
+    }
+
+    #numConselho {
+        font-size: 8px;
+        padding: 29px;
+        letter-spacing: 4px;
+    }
+
+    #resultado {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .pattern-divider {
+        width: 82%;
+        padding-bottom: 46px;
+        margin-top: 20px;
+    }
+
+    .botao {
+        top: 72%;
+    }
+
+}

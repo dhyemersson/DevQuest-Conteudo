@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css"/>
+    <link rel="stylesheet" href="./src/css/variables.css"/>
+    <link rel="stylesheet" href="./src/css/style.css"/>
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
+  <body>
+    <script src="./src/js/script.js"></script>
+    <div class="container">
+      <div class="card">
+        <span id="numConselho">CONSELHOS #1</span>
+        <p id="resultado">"Um pequeno erro pode te levar para um grande caminho."</p>
+         <img class="pattern-divider" src="./src/images/pattern-divider-desktop.svg" alt="pattern-divider" >
+        </div>
+        <button class="botao" onclick="geraConselho()"><img class="icon" src="./src/images/icon-dice.svg" alt=""></button >
+          <picture>
+            <source media="(max-width: 500px)" />
+        </picture>
+      </div>
+    </div>
+  </body>
+</html>
