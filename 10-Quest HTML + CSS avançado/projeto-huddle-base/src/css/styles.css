@@ -1,0 +1,80 @@
+html{
+    background: url(../images/bg-desktop.svg) no-repeat ;
+    background-color: hsl(257, 40%, 49%);
+    font-family: "Open Sans", sans-serif; 
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.logo {
+    padding: 4em 5em 3.75em;
+}
+
+.main {
+    display: flex;
+}
+
+.main .imagem img {
+    width: 43.438em;
+    margin-left: 5em;
+}
+
+.main .texto {
+    display: flex;
+    flex-direction: column;
+    width: 36,3em;
+    padding: 3.75em;
+}
+
+.main .texto h1 {
+    padding-bottom: 0.6em;
+    width: 12.3em;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main .texto p {
+    padding-bottom: 1.9em;
+    width: 32.5em;
+}
+
+.main .texto a {
+    display: flex;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    align-self: flex-start;
+    text-decoration: none;
+    font-weight: 500;
+    width: 12.5em;
+    height: 3.45em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.9em;
+    cursor: pointer;
+}
+
+.main .texto a:hover{
+    background-color: #e980e7ff;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2.8em;
+    margin: 1.2em -1em auto;   
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+    display: flex;    
+    color: white;
+    font-size: 1.9em;
+    letter-spacing: 1.3em;
+    cursor: unset;
+}
+
+.fa-facebook-f .fa-twitter .fa-instagram, i:hover {
+    color: #e980e7ff;
+}
