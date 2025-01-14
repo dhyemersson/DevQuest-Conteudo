@@ -1,0 +1,60 @@
+.container.direction{
+    display: flex;
+    flex-direction: row ;
+}
+.container.direction div{
+    background-color: aqua;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}   
+
+
+
+
+
+
+
+
+
+
+
+.container.wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.container.wrap div{
+    background-color: aqua;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container.flowr{
+    display: flex;
+    flex-flow: row wrap;
+}
+.container.flowr div{
+    background-color: aqua;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}   

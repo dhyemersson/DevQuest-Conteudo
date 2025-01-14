@@ -1,0 +1,54 @@
+.cabecalho{
+    background-color: aquamarine;
+}
+
+.menu{
+    background-color: cornflowerblue;
+}
+
+.secao-principal{
+    background-color: hotpink;
+}
+
+.aside{
+    background-color: orangered;
+}
+
+.rodape{
+    background-color: green;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "cabecalho cabecalho cabecalho" "menu secao-principal aside" "rodape rodape rodape";
+
+
+    /* obs: se eu quiser deixar um espaco vazio entre eles e so colocar " . " (um ponto)  exemplo na secao principal se eu quisesse deixar um espaco vazio entre Navigation e Aside era so colocar " . " (um ponto) e apagar do html o secao principal */
+
+
+    /* Escrevendo o codigo em modo abreviado */
+    grid:
+    "cabecalho cabecalho cabecalho"  200px
+    "menu secao-principal aside" 400px
+    "rodape rodape rodape" 250px / 160px auto 60px;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.secao-principal{
+    grid-area: secao-principal;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.rodape{
+     grid-area: rodape ;
+}

@@ -1,0 +1,36 @@
+/* seletor::pseudo-elemento {
+   propriedade: valor;
+} */
+
+.first-letter::first-letter{
+    color:rgb(52, 165, 42)
+}
+
+
+
+
+
+.first-line::first-line{
+    color:rgb(42, 165, 79)
+}
+
+
+.first-line::first-letter{
+    color:rgb(165, 42, 52)
+}
+
+
+
+li::marker{
+    color:red;
+    font-size: 40px;
+}
+
+h2::after{
+    content: "";
+    background: url(download.png) center center no-repeat;
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+     
+}
